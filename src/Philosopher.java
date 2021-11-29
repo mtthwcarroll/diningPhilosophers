@@ -64,7 +64,7 @@ public class Philosopher implements Runnable{
                         e.printStackTrace();
                     }
                     // return chopsticks.
-                    System.out.println(chopsticks[0].getSpot()+" "+chopsticks[1].getSpot()+" returned");
+                    System.out.println("Philosopher "+spot+" returned chopsticks "+chopsticks[0].getSpot()+" "+chopsticks[1].getSpot());
                     table.returnChopsticks(chopsticks);
                     isHungry = false;
                 }
